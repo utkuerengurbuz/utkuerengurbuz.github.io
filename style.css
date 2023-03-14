@@ -1,0 +1,314 @@
+.ustmenu{
+    background-color: black;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.mail{
+    padding-left: 15px;
+}
+.social{
+padding-left: 12%;
+
+}
+.sp{
+    text-align: justify;
+    width: 200px;
+   
+    margin:10px;
+    padding:10px;
+    border-left: 1px solid gray;
+}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	
+/* ============ desktop view .end// ============ */
+
+.navbar-dark .navbar-nav .nav-link{
+    color: black;
+}
+.navbar-brand{
+    padding-left: 15%;
+}
+
+.navbar-nav{
+    padding-left: 20%;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-left: 100px;
+}
+
+.loglulu .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+    color: blue;
+}
+
+.slider .sliderTitle{
+    position: relative;
+    padding-top: 15%;
+    padding-left: 5%;
+    color: #fff;
+    padding-bottom: 2%;
+}
+.slider .sliderBtn{
+    position: relative;
+    margin-left: 5%;
+
+    border: 1px solid #fff;
+    border-radius: 35px;
+    padding: 10px 20px ;
+}
+.slider a{
+    color: white !important;
+    text-decoration: none;
+}
+.yazi{
+    padding-top: 8%;
+}
+
+
+.ulasBana {
+    width: 340px;
+    height: 440px;
+    background: #212020;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    padding: 20px 30px;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    margin-top: -35px;
+  }
+.ulasBana input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.3s;
+    border-bottom: 2px solid #bebed2;
+}
+.ulasBana button {
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid #78788c;
+    background: 0;
+    color: #5a5a6e;
+    cursor: pointer;
+    transition: all 0.3s;}  
+    .ulasBana h2{
+        color: white;
+    }
+
+    .kucukHizmet{
+        background-color:  #212020;
+        margin-top: 10%;
+        padding-top: 5%;
+        text-align: center;
+    }
+    .kucukHizmet h5{
+        color: white;
+        margin-top: 15px;
+    }
+    .kucukHizmet p{
+        color: white;
+    }
+    .imgKucuk {
+
+        border: 1px solid white;
+        border-radius: 50%;
+         padding: 25px 15px;
+         padding-bottom: 20px;
+    }
+
+
+.hizmetlerbg
+{
+    position: relative;
+    width: 100%;
+    padding: 5% 0;
+    margin: 0;
+}
+
+.hizmetlerbg .hizmet-title
+{
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+ 
+.hizmetlerbg .hizmetbox 
+{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+ 
+.hizmetlerbg .hizmetbox .golgediv
+{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.hizmetlerbg .hizmetbox .golgediv::before
+{
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 235px;
+    background-color: #000;
+    opacity: 0.2;
+    border-radius: 5%;
+}
+.hizmetbox h4{
+    top: 35%;
+    text-align: center;
+   position: absolute;
+    color: white;
+    width: 100%;
+}
+.imgHizmetler{
+    border-radius: 5%;
+    margin-bottom: 15px;
+    
+}
+
+.hizmetbox p{
+    margin:10px;
+    padding:10px;
+    border-left: 1px solid gray;
+}
+
+.iletisim-ul{
+    list-style: none;
+}
+.iletisim-ul li i{
+    margin-right: 10px;
+    padding-top: 5%;
+}
+
+.iletisimUlas {
+    width: 340px;
+    height: 440px;
+    background: #212020;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    padding: 20px 30px;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+
+    float: right;
+    margin-right: -15px;
+    color: white;
+  }
+.iletisimUlas input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.3s;
+    border-bottom: 2px solid #bebed2;
+}
+.iletisimUlas button {
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid #78788c;
+    background: 0;
+    color: #5a5a6e;
+    cursor: pointer;
+    transition: all 0.3s;}  
+ 
+    .harita{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .ekip{
+        border: 1px solid gray;
+        padding: 30px 30px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background-color: #ffffff;
+        /* #212020; */
+    }
+
+.hizmet{
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: 30px 30px;
+}
+.hizmetler img {
+    height: 250px;
+}
+
+.btnBilgi {
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .btnBilgi:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  }
+  
+  .btnBilgi:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .btnBilgi:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+  .hizmetler a{
+    text-decoration: none;
+    color: #36395A;
+  }
